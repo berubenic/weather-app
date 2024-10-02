@@ -38,6 +38,7 @@ public class App {
             data = objectMapper.readValue(file, WeatherData.class);
         } catch (Exception e) {
             e.printStackTrace();
+            return;
         }
 
         boolean validQuery = false;
