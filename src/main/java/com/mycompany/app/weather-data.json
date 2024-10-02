@@ -1,0 +1,42 @@
+{
+    "weather-data": {
+        "New York": [
+            {
+                "date": "2023-10-01",
+                "temperature": {
+                    "high": 75,
+                    "low": 60
+                },
+                "precipitation": 0.1,
+                "wind": {
+                    "speed": 10,
+                    "direction": "NW"
+                }
+            },
+            {
+                "date": "2023-10-02",
+                "temperature": {
+                    "high": 70,
+                    "low": 55
+                },
+                "precipitation": 0.0,
+                "wind": {
+                    "speed": 8,
+                    "direction": "N"
+                }
+            },
+            {
+                "date": "2023-10-03",
+                "temperature": {
+                    "high": 68,
+                    "low": 50
+                },
+                "precipitation": 0.2,
+                "wind": {
+                    "speed": 12,
+                    "direction": "NE"
+                }
+            }
+        ]
+    }
+}
