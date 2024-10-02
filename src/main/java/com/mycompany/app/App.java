@@ -17,11 +17,9 @@ public class App {
     }
 
     public static void run() {
-        System.out.println("Hello World!");
         ObjectMapper objectMapper = new ObjectMapper();
 
         String filepath = "./weather-data.json";
-        System.out.println("Current working directory: " + new File(".").getAbsolutePath());
 
         WeatherData data = null;
 
